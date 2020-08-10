@@ -1,0 +1,25 @@
+/*The color of the button when the mouse leaves */
+QPushButton
+{
+    background-color:rgb(240,255,255);
+    color: rgb(0, 0, 2);
+    border-style: outset;
+    border-color: beige;
+    border-radius: 10px;
+}
+
+/* The color of the button when the mouse is hovering over it */
+ QPushButton:hover
+{
+    background-color:rgb(14, 220, 0);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+}
+
+ /* The color of the button when the mouse is clicked */
+QPushButton:checked
+{
+    background-color:rgb(14, 170, 79);
+    border-radius: 10px;
+    color: rgb(255, 255, 0);
+}
