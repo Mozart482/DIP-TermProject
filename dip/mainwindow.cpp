@@ -1224,8 +1224,15 @@ void MainWindow::retranslate()
     frequencyDomainAct->setText(tr("Frequency Domain"));
     embossFilterAct->setText(tr("Emboss Filter"));
 
+
+    segmentMenu->setTitle(tr("&Segmentation"));
+    thresholdAct->setText(tr("threshold segment"));
+
     morphologyMenu->setTitle(tr("&Morphology"));
     erodeAct->setText(tr("Erode"));
+    dilateAct->setText(tr("Dilate"));
+    openningAct->setText(tr("Openning"));
+    closingAct->setText(tr("Closing"));
 
     helpMenu->setTitle(tr("&Help"));
     languageMenu->setTitle(tr("&Language"));
